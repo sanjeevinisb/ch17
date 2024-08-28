@@ -1,4 +1,4 @@
-package com.xworkz.data;
+ package com.xworkz.data;
 
 public class MarketData {
 	private String name;
