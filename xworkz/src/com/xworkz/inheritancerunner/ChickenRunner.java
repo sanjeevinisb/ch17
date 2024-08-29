@@ -1,8 +1,7 @@
 package com.xworkz.inheritancerunner;
 import com.xworkz.inheritance.Chicken;
-import com.xworkz.inheritance.Animal;
 import com.xworkz.inheritance.Bird;
-import com.xworkz.inheritance.Bull;
+
 public class ChickenRunner {
 
 	public static void main(String[] args) {
