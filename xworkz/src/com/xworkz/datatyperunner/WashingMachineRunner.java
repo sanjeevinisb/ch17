@@ -3,6 +3,7 @@ import com.xworkz.datatype.Abhishek;
 import com.xworkz.datatype.Bhumika;
 import com.xworkz.datatype.Lakshmi;
 import com.xworkz.datatype.Megha;
+import com.xworkz.datatype.Nayana;
 import com.xworkz.datatype.WashingMachine;
 
 public class WashingMachineRunner {
@@ -18,6 +19,8 @@ public class WashingMachineRunner {
 		abhishek.dry();
 		Bhumika bhumika = new Bhumika();
 		bhumika.delay();
+		Nayana nayana = new Nayana();
+		nayana.rotate();
 		
 	}
 
