@@ -1,5 +1,4 @@
 package com.xworkz.abst.runner;
-import com.xworkz.abst.internal.Provider;
 import com.xworkz.abst.internal.InternetProvider;
 import com.xworkz.abst.internal.DellProvider;
 import com.xworkz.abst.internal.LenovoProvider; 
