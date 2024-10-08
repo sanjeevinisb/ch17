@@ -8,7 +8,8 @@ public class TicketBookRunner {
 
 	public static void main(String[] args) {
 		        
-		        TicketBookDTO ticket = new TicketBookDTO("Ibbani Tabbida Ileyali", "PVR Theater", TicketType.ONLINE, SeatType.RECLINER);
+		        TicketBookDTO ticket =
+		        		new TicketBookDTO("Ibbani Tabbida Ileyali", "PVR Theater", TicketType.ONLINE, SeatType.RECLINER);
 		        ticket.ticketInfo();
 		    }
 
