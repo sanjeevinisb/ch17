@@ -86,9 +86,14 @@ public class ProductDTO implements Serializable,Comparable<ProductDTO>{
 	}
 	@Override
 	public int compareTo(ProductDTO o) {
-		return this.vendor.compareTo(o.vendor);
+		return Double.compare(this.cost,o.cost);
 	}
+	public int compareTo1(ProductDTO o) {
+		return this.vendor.compareTo(o.vendor);
 	
-	} 
+}
+}
+	
+
 	
 

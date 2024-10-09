@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 import com.xworkz.collection.dto.ProductDTO;
 
-public class ProductRunner1 {
+public class ProductRunner2 {
 
 	public static void main(String[] args) {
 		Collection<ProductDTO> products = new ArrayList<ProductDTO>();
@@ -28,10 +28,10 @@ public class ProductRunner1 {
 		
 		 products
 		 .stream()
-		 .filter(dto -> dto.getVendor().startsWith("A"))  
-         .forEach(dto -> System.out.println(dto));	
-		 
-		 System.out.println("********sort*********");	
+		 .filter(dto -> dto.getCost()) 
+         .sorted((dto1, dto2) -> Double.compare(dto2.getCost(), dto1.getCost()))
+         .collect(Collectors.toList())
+         .forEach(dto -> System.out.println(dto));			 
 	}
 
 }
