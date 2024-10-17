@@ -2,7 +2,7 @@ package com.xworkz.collection.dto;
 
 import java.io.Serializable;
 
-
+ 
 public class ProductDTO implements Serializable,Comparable<ProductDTO>{
 	private int id;
 	private String name;

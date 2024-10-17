@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>X-workz</title>
+</head>
+<body>
+	<h1>Railway Booking Form</h1>
+	</br>
+	<form class="form-inline" action="railway" method="post">
+		<pre>
+<div class="form-group">
+<label for="name">Name</label>
+<input type="text" class="form-control" name="name" id="name">
+  </div>
+Source   <select class="form-select"  name="source"id="source">
+<option>--Select--</option>
+  <option>Dharwad</option>
+  <option>Haveri</option>
+  <option>Bagalkot</option>
+  <option>Bijapur</option>
+  <option>Koppal</option>
+</select></br>
+Destination   <select class="form-select" name="destination" id="destination">
+<option>--Select--</option>
+  <option>Banglore</option>
+  <option>Manglore</option>
+  <option>Gulbarga</option>
+  <option>Hospet</option>
+  <option>Hubli</option>
+</select></br>
+Start Date <input type="date" class="form-control" name="startDate" id="startDate"
+				min="2005-01-01" max="2027-12-31" required></br>
+Return Date <input type="date" class="form-control" name="returnDate" id="returnDate"
+				min="2005-01-01" max="2027-12-31" required></br>
+Seat Type   <select class="form-select" name="seatType" id="seatType">
+<option>--Select--</option>
+  <option>sleeper</option>
+  <option>3rdAC</option>
+  <option>2ndAC</option>
+  <option>1stAC</option>
+  </select></br>
+<div class="form-group">
+<label for="totalTicket">Total No Of Tickets:</label>
+<input type="number" class="form-control" name="totalTicket" id="totalTicket">
+  <div class="form-group">
+<label for="NoOfMale">No Of Male:</label>
+<input type="number" class="form-control" name="NoOfMale" id="NoOfMale">
+  <div class="form-group">
+<label for="NoOfFemale">No Of Female:</label>
+<input type="number" class="form-control" name="NoOfFemale" id="NoOfFemale">
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  <input type="submit" class="btn btn-default" value="submit"/>
+  </div>
+  </div>
+ </div>
+ </div>
+  </pre>
+	</form>
+</body>
+</html>

@@ -86,6 +86,7 @@ public class ProductRunner {
 	        .map((dto)-> dto.getName().toUpperCase())
 	        .collect(Collectors.toList())
 	        .forEach(dto -> System.out.println(dto));
+	 
 			 
 	}
 
