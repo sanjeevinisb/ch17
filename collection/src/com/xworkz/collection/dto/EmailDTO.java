@@ -20,14 +20,7 @@ public class EmailDTO implements Serializable{
     private String subject;
     private String message;
 
-    @Override
-    public String toString() {
-        return "EmailDTO{" +
-                "from='" + from + '\'' +
-                ", to='" + to + '\'' +
-                ", subject='" + subject + '\'' +
-                ", message='" + message + '\'' +
-                '}';
+    
     }
   
-    }
+    
