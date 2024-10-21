@@ -18,7 +18,7 @@ public class RailwayServlet extends HttpServlet {
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println("Running service in RailwayServlet");
-
+ 
 		String name = req.getParameter("name");
 		String source = req.getParameter("source");
 		String destination = req.getParameter("destination");
